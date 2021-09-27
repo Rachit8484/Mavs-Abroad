@@ -1,5 +1,28 @@
 {
+  "name": "demo-pwa",
+  "description": "Demo progressive web application",
+  "version": "1.0.2",
+  "author": "https://github.com/gokulkrishh",
   "dependencies": {
-    "react-router-dom": "^5.3.0"
-  }
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-gcm": "^1.0.2",
+    "nodemon": "^2.0.13",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "start": "npm run css && node server.js",
+    "css": "postcss -u autoprefixer -r css/*",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.3",
+    "postcss-cli": "^6.1.0"
+  },
+  "engines": {
+    "node": ">=8.11.2"
+  },
+  "license": "MIT",
+  "snyk": true
 }
