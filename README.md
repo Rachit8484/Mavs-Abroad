@@ -1,7 +1,10 @@
-# [Progressive Web Application]
+### <p align="center"><img width="150px" height="150px" src="https://raw.githubusercontent.com/gokulkrishh/demo-progressive-web-app/master/images/icons/android-chrome-192x192.png"></p>
+
+# [Progressive Web Application](https://demopwa.surge.sh)
 
 *A demo for progressive web application with features like offline, push notifications, background sync etc,*
 
+### [Live](https://demopwa.surge.sh)
 
 ### Installation
 
@@ -51,6 +54,13 @@ In browser, open [http://localhost:3000](http://localhost:3000)
 
 - [x] - Web Share API
 
+### Get started with PWA Development
+
+- [Codelabs](https://pwa.tips/codelabs)
+
+### List of Progressive Web Apps
+
+- [PWA Rocks](https://pwa.rocks)
 
 ### References
 
@@ -60,10 +70,11 @@ In browser, open [http://localhost:3000](http://localhost:3000)
 
 - [Navigation Preload](https://developers.google.com/web/updates/2017/02/navigation-preload)
 
+- [Awesome Meta and Manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest)
 
 #### License
 
-MIT © [Rachit Agarwal](https://github.com/Rachit8484/Mavs-Abroad)
+MIT © [Gokulakrishnan](https://github.com/gokulkrishh)
 
 <div align="center">
   <sub>If you found a bug or some improvments, feel free to raise an issue and send a PR!</sub>
