@@ -7,7 +7,16 @@ var cacheName = 'cache-v4';
 var files = [
   './',
   './index.html?utm=homescreen', //SW treats query string as new request
+  './maps.html',
+  './calender.html',
+  './images/calender.png',
+  './images/maps.png',
+  './images/photos.png',
+  './images/japan-bg.png',
+  './images/contacts.png',
   'https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700', //caching 3rd party content
+  // 'https://www.google.com/maps/d/u/0/embed?mid=1eVbTmew15w76MJqj2PwyyIxafKV99Qow',
+  // 'https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&src=YnJtYXJ0aW5lejkyMUBnbWFpbC5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Nzk5bm1ybDJxbWNxYjRsMW42YjNnZjFiN29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%23B39DDB&color=%230B8043',
   './css/styles.css',
   './images/icons/android-chrome-192x192.png',
   './images/push-on.png',
