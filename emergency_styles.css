@@ -1,0 +1,113 @@
+/* Emergency_contacts styles */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* header */
+header {
+  width: 100%;
+  background-color:rgb(145, 5, 5);
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+/* Title 2 inside header */
+header h2 { color: white;  
+}
+
+
+/* navigation tab */
+header .navigation {
+  display: flex;
+  flex-direction: row;
+  background: rgb(174, 46, 37);
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+/* Home button */
+header .navigation a {
+  padding: 0 0.25rem;
+  text-decoration: none;
+}
+
+
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  padding: 0 1rem;
+}
+
+.main-container .news-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: .5rem;
+}
+
+.main-container .new {
+  margin: 1.5rem 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.main-container .new p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+footer {
+  
+  padding: 2rem;
+  background-color: rgb(145, 5, 5);
+}
+
+/** Tablet */
+@media screen and (max-width: 768px) {
+  
+  header {
+    flex-direction: column;
+    /** Justify content en COLUMN pasa a ser align-items */
+    /** justify-content: center; **/
+    align-items: center;
+    /** Align items en COLUMN pasa a ser justify-content */
+  }
+
+  .main-container {
+    flex-direction: column;
+  }
+
+  .main-container .news-container {
+    flex-direction: column;
+  }
+
+  .main-container aside {
+    width: 100%;
+  }
+
+}
+
+/** Phone */
+@media screen and (max-width: 600px) {
+  
+  .main-container .new .title h2 {
+    font-size: 2rem;
+  }
+
+  .main-container .new .description p {
+    font-size: 1.25remrem;
+  }
+
+}
