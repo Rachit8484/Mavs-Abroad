@@ -1,0 +1,197 @@
+/*
+  Style sheet is used to define a style for the  HTML pages being used 
+  to describe locations
+  
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
+header {
+  width: 100%;
+  background-color: rgb(55, 115, 164);
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+header h2 { 
+  color:black; 
+  letter-spacing: 0.15rem;
+  font-weight: bolder;
+  font-size: 500;
+}
+
+header .navigation {
+  display: flex;
+  flex-direction: row;
+  background: rgb(83, 128, 165);
+  align-items: center;
+  padding: 0 1rem;
+  
+}
+
+header .navigation a {
+  padding: 0 0.25rem;
+  text-decoration: none;
+  color: black;
+  
+}
+
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  /*padding: 0 0.5rem; */
+
+}
+
+.main-container .news-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #81a274;
+}
+
+.main-container .new {
+  margin: 1.5rem 0;
+  letter-spacing: 0.1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container .new {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container .news-container .new .picture img {
+ width: 99%;
+ height: auto;
+}
+
+.main-container .--new-vertical {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-container .news-container .--new-vertical .content {
+  width: 50%;
+}
+
+.main-container .news-container .--new-vertical .image {
+  width: 50%;
+}
+
+.main-container .news-container .--new-vertical .image img {
+  width: 98%;
+  height: auto;
+
+  /* width: 200px;
+  height: 200px; */
+
+  /* object-fit: cover; */
+  /* object-fit: contain; */
+
+}
+
+.main-container aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40%;
+  /*margin-top: 1.5rem;*/
+  background-color: rgb(83, 128, 165);
+  padding-top: 0;
+}
+
+.main-container aside .recent {
+  margin: .5rem;
+  padding: .5rem;
+  /*background-color: rgb(209, 202, 202);*/
+
+  
+  
+}
+
+.main-container aside .recent a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+  
+}
+
+footer {
+  padding: 1rem;
+  background-color:rgb(55, 115, 164);
+  text-decoration: none;
+}
+
+.imagen-fluid {
+   width: 70%;
+   height: auto;
+}
+
+/** media queries */ 
+
+/** Tablet */
+@media screen and (max-width: 768px) {
+  
+  header {
+    flex-direction: column;
+    /** Justify content en COLUMN pasa a ser align-items */
+    /** justify-content: center; **/
+    align-items: center;
+    /** Align items en COLUMN pasa a ser justify-content */
+  }
+
+  .main-container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .main-container .news-container {
+    flex-direction: column;
+  }
+
+  .main-container aside {
+    width: 100%;
+  }
+
+}
+
+/** Phone */
+@media screen and (max-width: 600px) {
+  
+  .main-container .new .title h2 {
+    font-size: 2rem;
+  }
+
+  .main-container .new .description p {
+    font-size: 1.25remrem;
+  }
+
+  .main-container .--new-vertical {
+    flex-direction: column;
+  }
+
+  .main-container .news-container .--new-vertical .content {
+    width: 100%;
+  }
+
+  .main-container .news-container .--new-vertical .image {
+    width: 100%;
+  }
+
+}
