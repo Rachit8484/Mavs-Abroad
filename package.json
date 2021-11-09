@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.4.3",
-    "postcss-cli": "^6.1.0"
+    "postcss-cli": "^9.0.2"
   },
   "engines": {
     "node": ">=8.11.2"
