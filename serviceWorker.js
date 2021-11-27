@@ -8,10 +8,10 @@ var files = [
   "./",
   "./index.html?utm=homescreen", //SW treats query string as new request
   "./maps.html",
-  "./calender.html",
+  "./calendar.html",
   "./emergency_contacts.html",
   "./emergency_styles.css",
-  "./images/calender.png",
+  "./images/calendar.png",
   "./images/maps.png",
   "./images/photos.png",
   "./images/japan-bg.png",
