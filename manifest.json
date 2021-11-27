@@ -1,7 +1,7 @@
 {
 	"name": "Progressive Web App",
-	"short_name": "Demo PWA",
-	"description": "Demo for progressive web app with push notifications, background sync etc.",
+	"short_name": "Mavs Abroad PWA",
+	"description": "PWA for Mavs Abroad Japan Project",
 	"start_url": "./index.html?utm=homescreen",
 	"display": "standalone",
 	"orientation": "portrait",
