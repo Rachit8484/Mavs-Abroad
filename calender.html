@@ -3,8 +3,25 @@
   <head>
     <title>Add Map</title>
   </head>
+  <style>
+    .google-cal {
+        position: relative;
+        padding-bottom: 75%; 
+        height: 0;
+        overflow: hidden;
+    }
+    .google-cal iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+</style>
   <body>
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&src=bWF2c2Ficm9hZEBnbWFpbC5jb20&color=%23039BE5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <div class="google-cal">
 
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&src=bWF2c2Ficm9hZEBnbWFpbC5jb20&color=%23039BE5" style="border:solid 1px #777" width="800" height="400" frameborder="0" scrolling="no"></iframe>
+    </div>
   </body>
 </html>
