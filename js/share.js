@@ -9,7 +9,7 @@
         //Web share API
         navigator.share({
           title: document.title,
-          text: 'A simple pwa which works in offline, add to home screen and has a splash screen, push notifications, bg sync etc',
+          text: 'Mavs-Abroad PWA',
           url: window.location.href
         })
         .then(function() {

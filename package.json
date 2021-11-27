@@ -6,8 +6,8 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "firebase": "^9.1.0",
-    "node-gcm": "^1.0.2",
+    "firebase": "^9.5.0",
+    "node-gcm": "^1.0.5",
     "nodemon": "^2.0.13",
     "snyk": "^1.316.1"
   },

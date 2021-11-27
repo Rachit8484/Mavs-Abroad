@@ -3,8 +3,25 @@
   <head>
     <title>Add Map</title>
     </head>
+    <style>
+      .google-maps {
+          position: relative;
+          padding-bottom: 75%; 
+          height: 0;
+          overflow: hidden;
+      }
+      .google-maps iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100% !important;
+          height: 100% !important;
+      }
+  </style>
     <body>
-      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1YHai6QSxA8GVIST1TnMys59a_v27oSNl" width="640" height="480"></iframe> 
+      <div class="google-maps">
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1YHai6QSxA8GVIST1TnMys59a_v27oSNl" width="600" height="450" frameborder="0" style="border:0"></iframe> 
+    </div>
     </body>
 
 </html>
