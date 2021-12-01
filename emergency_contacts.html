@@ -1,42 +1,75 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Emergency Contacts</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="description"
+			content="This a Mavs Abroad Japan Progressive Web Application which will work in offline, has a splash screen add to home screen etc,."
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="theme-color" content="#29434d" />
+		<meta name="msapplication-TileColor" content="#29434d" />
+		<meta name="msapplication-TileImage" content="./images/icons/mstile-150x150.png" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="apple-mobile-web-app-title" content="Progressive Web Application" />
+		<meta name="application-name" content="Progressive Web Application" />
+		<link rel="apple-touch-icon" href="./images/icons/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" href="./images/icons/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="./images/icons/favicon-16x16.png" sizes="16x16" />
+		<link rel="manifest" href="./manifest.json" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700" />
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+
+	<body>
+
+
+		<div class="app app__layout" style=" background-size: auto; background-size: cover;">
+
+			<header>
+				<span class="header__icon">
+					<svg class="menu__icon no--select" width="24px" height="24px" viewBox="0 0 48 48" fill="#fff">
+						<path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z"></path>
+					</svg>
+				</span>
+
+				<span class="header__title no--select">Emergency Contacts</span>
+			</header>
+
+			<div class="menu">
+				<div class="menu__header"></div>
+				<ul class="menu__list">
+                    <li><a  href="./index.html">Home</a></li>
+					<li><a target="_blank" rel="noopener" href="https://mentis.uta.edu/explore/profile/ladonna-aiken">Professor Information</a></li>
+					<li><a target="_blank" rel="noopener" href="https://www.google.com/search?q=currency+converter+for+japan">Currency Converter</a></li>
+					<li><a target="_blank" rel="noopener" href="tel:110">SOS</a></li>
+					<li><a target="_blank" rel="noopener" href="https://chat.whatsapp.com/Cjqc4cru7gvHVlv1wxmbCm">WhatsApp Community</a></li>
+					
+				</ul>
+			</div>
+			<div class="menu__overlay"></div>
+    <br><br><br><br>
   <style>
-    table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
-    
-    td, th {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-    
-    tr:nth-child(even) {
-      background-color: #dddddd;
-    }
-    </style>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Emergency Contacts</title>
-    <link href="emergency_styles.css" rel="stylesheet" type="text/css" />
-  </head>
-
-  <body>    <!-- header contains Emergency h2 and Home button-->
-    <header>
-      <div class="logo">
-        <h2 style="padding-bottom: .5rem;">Emergency Contacts</h2>
-      </div>
-      <nav class="navigation">
-        <div class="item">
-          <a href="index.html" style="color: white;"> Home </a>
-        </div>
-      </nav>
-    </header>
-                   <!-- container holds  emergency information   -->
-
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  </style>
                    
 <table>
   <tr>
@@ -189,9 +222,35 @@
         </div>
       </div>
     </div>
-    <footer>  <!-- footer-->
-      <p>Mavs Study Abroad Japan.</p>
-    </footer>
+    	<!-- JS Files  -->
+      <script src="./js/toast.js"></script>
+      <script src="./js/main.js"></script>
+      <script src="./js/offline.js"></script>
+      <script src="./js/app.js"></script>
+      <script src="./js/push.js"></script>
+      <script src="./js/sync.js"></script>
+      <script src="./js/share.js"></script>
+      <script src="./js/menu.js"></script>
+  
+      <!-- My Google Analytics Report -->
+      <script>
+          (function(i, s, o, g, r, a, m) {
+              i['GoogleAnalyticsObject'] = r;
+              (i[r] =
+                  i[r] ||
+                  function() {
+                      (i[r].q = i[r].q || []).push(arguments);
+                  }),
+                  (i[r].l = 1 * new Date());
+              (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+              a.async = 1;
+              a.src = g;
+              m.parentNode.insertBefore(a, m);
+          })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  
+          ga('create', 'UA-92627241-1', 'auto');
+          ga('send', 'pageview');
+      </script>
   </body>
 </html>
 

@@ -6,6 +6,8 @@ var cacheName = 'cache-v4';
 //Files to save in cache
 var files = [
   "./",
+  "https://www.uta.edu/academics/faculty/profile?username=laiken",
+  "https://www.google.com/search?q=currency+converter+for+japan",
   "./index.html?utm=homescreen", //SW treats query string as new request
   "./maps.html",
   "./translations.html",

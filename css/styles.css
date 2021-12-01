@@ -50,12 +50,12 @@ li {
 	user-select: none;
 }
 
-h3 {
+/* h3 {
 	text-align: left;
 	margin-top: 20px;
 	margin-bottom: 30px;
 	font-weight: 500;
-}
+} */
 
 /* MAIN styles */
 
@@ -202,6 +202,10 @@ header {
 	margin: 0 auto;
 	margin-top: 56px;
 	padding-top: 10px;
+}
+
+.translations {
+	text-align: center;
 }
 
 .toast__msg {
